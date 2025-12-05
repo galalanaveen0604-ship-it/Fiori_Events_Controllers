@@ -1,0 +1,14 @@
+<mvc:View controllerName="org.index.it.sapfiori.controller.Events_Controller"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="CALCULATION">
+        <content>
+            <Input id="_idGenInput" description="Any Value" placeholder="Type Number" type="Number"/>
+            <Input id="_idGenInput1" description="Any Value" placeholder="Type Number" type="Number"/>
+            <Button id="idGenButton1" text="Plus" width="150px" icon="sap-icon://add" press="onPlus"/>
+            <Button id="idGenButton2" text="Minus" width="150px" icon="sap-icon://less" press="onMinus"/>
+            <Button id="idGenButton3" text="Multiplication" width="150px" icon="sap-icon://trend-up" press="onMultiplication"/>
+            <Button id="idGenButton4" text="Division" width="150px" icon="sap-icon://trend-down" press="onDivision"/>
+        </content>
+    </Page>
+</mvc:View>
